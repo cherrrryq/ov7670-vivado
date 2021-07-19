@@ -1,0 +1,329 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Oct 17 21:59:29 2017
+| Host         : DESKTOP-G4Q80BO running 64-bit major release  (build 9200)
+| Command      : report_methodology -file OV7670_VGA_TOP_methodology_drc_routed.rpt -rpx OV7670_VGA_TOP_methodology_drc_routed.rpx
+| Design       : OV7670_VGA_TOP
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 58
++-----------+----------+-------------------------------------------------+------------+
+| Rule      | Severity | Description                                     | Violations |
++-----------+----------+-------------------------------------------------+------------+
+| TIMING-17 | Warning  | Non-clocked sequential cell                     | 39         |
+| TIMING-18 | Warning  | Missing input or output delay                   | 18         |
+| XDCC-5    | Warning  | User Non-Timing constraint/property overwritten | 1          |
++-----------+----------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_addr_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_dout_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/buff_wr_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/t8_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/t8_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/t8_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/t8_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/t8_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/t8_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/t8_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/t8_valid_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Warning
+Non-clocked sequential cell  
+The clock pin OV7670_CAPTURE/vsyncr_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on BTN_UP relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on OV7670_SIOD relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on B[0] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on B[1] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on B[2] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on B[3] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on ERROR_LED relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on G[0] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on G[1] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on G[2] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on G[3] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on HSYNC relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on OV7670_SIOC relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on R[0] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on R[1] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on R[2] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on R[3] relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on VSYNC relative to clock(s) VIRTUAL_clk_out1_clk_clk_wiz_0_0 
+Related violations: <none>
+
+XDCC-5#1 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property PACKAGE_PIN on ERROR_LED overrides a previous user property.
+New Source: C:/Users/ASUS/Desktop/ceshi/1/project_1.srcs/constrs_3/new/ports.xdc (Line: 58)
+Previous Source: C:/Users/ASUS/Desktop/ceshi/1/project_1.srcs/constrs_3/new/ports.xdc (Line: 26)
+Related violations: <none>
+
+

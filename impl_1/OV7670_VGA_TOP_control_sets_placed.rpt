@@ -1,0 +1,80 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Oct 17 21:58:57 2017
+| Host         : DESKTOP-G4Q80BO running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file OV7670_VGA_TOP_control_sets_placed.rpt
+| Design       : OV7670_VGA_TOP
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    15 |
+| Unused register locations in slices containing registers |    64 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              42 |           29 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              60 |           23 |
+| Yes          | No                    | No                     |              57 |           18 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             105 |           29 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+--------------------------------------------+---------------------------------------------+------------------+----------------+
+|            Clock Signal            |                Enable Signal               |               Set/Reset Signal              | Slice Load Count | Bel Load Count |
++------------------------------------+--------------------------------------------+---------------------------------------------+------------------+----------------+
+|  OV7670_PCLK_IBUF_BUFG             | OV7670_HREF_IBUF                           |                                             |                6 |              7 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 | I_CFG_OV7670/I_SCCB_sender/dr[20]_i_1_n_0  | I_CFG_OV7670/I_SCCB_sender/dr[30]_i_1_n_0   |                2 |             10 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 |                                            | I_DEBOUNCE/SR[0]                            |                4 |             11 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 | I_VGA/line_count_1                         | I_DEBOUNCE/SR[0]                            |                5 |             11 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 |                                            | I_VGA/R_o[3]_i_1_n_0                        |                5 |             12 |
+|  OV7670_PCLK_IBUF_BUFG             |                                            |                                             |               13 |             15 |
+|  OV7670_PCLK_IBUF_BUFG             | OV7670_CAPTURE/ov2ram_wr                   | I_DEBOUNCE/buff_addr0                       |                5 |             17 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 |                                            | I_CFG_OV7670/I_CFG_REG/dout[15]_i_1_n_0     |                9 |             17 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 | I_VGA/I_dp_en/pixel_addr_reg[16]           | I_VGA/pixel_addr[0]_i_1_n_0                 |                5 |             17 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 | I_CFG_OV7670/I_CFG_REG/cntr_rep[6]_i_1_n_0 | I_DEBOUNCE/SR[0]                            |                4 |             18 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 | I_CFG_OV7670/I_SCCB_sender/dr[20]_i_1_n_0  |                                             |                5 |             19 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 |                                            | I_CFG_OV7670/I_SCCB_sender/cntr[20]_i_1_n_0 |                5 |             20 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 |                                            |                                             |               17 |             30 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 | I_DEBOUNCE/init[0]_i_1_n_0                 |                                             |                8 |             32 |
+|  clk/clk_i/clk_wiz_0/inst/clk_out1 | I_DEBOUNCE/sel                             | I_DEBOUNCE/clear                            |                8 |             32 |
++------------------------------------+--------------------------------------------+---------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 7      |                     1 |
+| 10     |                     1 |
+| 11     |                     2 |
+| 12     |                     1 |
+| 15     |                     1 |
+| 16+    |                     9 |
++--------+-----------------------+
+
+
